@@ -42,8 +42,8 @@
 
 <header id="header" class="site-header">
 	
-	<nav class="navbar navbar-defatult navbar-fixed-top fluid-navbar navbar-style1">
-		<div class="container-fluid">
+	<nav class="navbar navbar-defatult navbar-fixed-top fluid-navbar navbar-style1 collapsed">
+		<div class="collapse navbar-collapse" id="main-nav">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand"><img src="assets/icons/logo-white.png" alt="" class="logo-img"></a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
@@ -58,8 +58,8 @@
 					<!--<li><a href="#"><img src="assets/icons/cart.png" alt="HostPro Logo">2</a></li>-->
 				</ul>
 				<ul class="navbar-nav nav navbar-right">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About</a></li>
 					<li><a href="services.html">Services</a></li>					
 					<li><a href="permits.html">Permits</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -72,53 +72,16 @@
 
 <main id="contents" class="site-contnts">
 	
-	<!--Slider-->
-	<div class="home-slider">
-		<div class="item" data-slide="assets/images/slide1.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-11 col-md-8 col-lg-7">
-						<h2 class="slide-title"><strong>We</strong> make <strong>strongest service </strong>above the <strong>World</strong> with a <strong>commitment.</strong></h2>
-						<p>We provide end to end services to our valued clients.</p>
-						<a href="services.html" class="btn btn-primary">Explore More</a>
-						<a href="contact.html" class="link">Need Help?</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="item" data-slide="assets/images/slide2.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-md-7 col-lg-6">
-						<h2 class="slide-title slide-title2"><strong>Unlimited Hosting</strong></h2>
-						<h3>More than <strong>One Million Websites</strong> depend on Our <strong>Web Hosting</strong> &amp; <strong>Cloud Services</strong>.</h3>
-						<ul class="nav slide-flist">
-							<li>Host up to 100 websites</li>
-							<li>SSD database storage</li>
-							<li>1TB monthly bandwidth</li>
-							<li>20 GB SSD storage</li>
-							<li>1000 email addresses</li>
-							<li>24/7/365 live support</li>
-						</ul>
-						<a href="#" class="btn btn-primary">learn more</a>
-						<a href="#" class="link">view plans</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="item" data-slide="assets/images/slide5.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-11 col-md-8 col-lg-7">
-						<h2 class="slide-title"><strong>We</strong> make <strong>strongest service </strong>above the <strong>World</strong> with a <strong>commitment.</strong></h2>
-						<p>We provide end to end services to our valued clients.</p>
-						<a href="#" class="btn btn-primary">view plans</a>
-						<a href="#" class="link">Need Help?</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!--Page Cover-->
+	<section class="row page-cover" data-slide="assets/images/slide2.jpg">
+	    <div class="container">
+	        <h2 class="this-title">About Us</h2>
+	        <ol class="breadcrumb">
+	            <li><a href="index.html">Home</a></li>
+                <li class="active">About</li>
+	        </ol>
+	    </div>
+	</section>
 	
 	<!--Find Domain-->
 	<!--<form class="row domain-search bg-pblue" action="#">
